@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backm"
+    android:rotation="0"
+    tools:context=".MainActivity">
+
+
+    <!-- health and fitness button -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="169dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="5dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#D32F2F"
+        android:text="@string/health_and_fitness"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+
+    <!-- button appointment -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="169dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="5dp"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#D32F2F"
+        android:text="@string/appointment_history"
+        android:textSize="17sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.929" />
+
+    <!-- bell icon-->
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="250dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="8dp"
+        android:background="@drawable/backm"
+        android:contentDescription="todo"
+        android:minWidth="48dp"
+        android:minHeight="48dp"
+        android:scaleType="centerCrop"
+        app:circularflow_angles="12"
+        app:layout_constraintBottom_toTopOf="@+id/SearchView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.177"
+        app:srcCompat="@drawable/bell1"
+        tools:ignore="UnknownId" />
+
+
+    <!--menu imgButton -->
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:background="#F6F3F3"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toTopOf="@+id/SearchView"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.179"
+        app:srcCompat="@drawable/menu"
+        android:contentDescription="TODO" />
+
+
+    <!-- For doctor search -->
+
+
+    <!--for search list view-->
+    <SearchView
+        android:id="@+id/SearchView"
+        android:layout_width="311dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/custom_button"
+        android:iconifiedByDefault="false"
+        android:queryHint="Search doctor by disease"
+        android:tooltipText="Disease"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039" />
+
+    <ListView
+        android:id="@+id/myList"
+        android:layout_width="273dp"
+        android:layout_height="387dp"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SearchView"
+        app:layout_constraintVertical_bias="0.08">
+
+    </ListView>
+
+
+    <!-- for menu button list-->
+    <ListView
+        android:id="@+id/myList2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/custom_button"
+        android:backgroundTint="#50B4EF"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.091"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton1"
+        app:layout_constraintVertical_bias="0.050000012">
+
+    </ListView>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="172dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SearchView"
+        tools:ignore="MissingConstraints">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="48dp" />
+
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

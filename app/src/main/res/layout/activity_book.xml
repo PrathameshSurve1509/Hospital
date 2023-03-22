@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Book">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="88dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="113dp"
+        android:ems="10"
+        android:hint="Name of the patient"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:selectAllOnFocus="false"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.434"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="122dp"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.385"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="127dp"
+        android:ems="10"
+        android:hint="Phone No"
+        android:inputType="phone"
+        android:paddingStart="10dp"
+        android:textAlignment="viewStart"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.306"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3" />
+
+    <Button
+        android:id="@+id/date_button"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="36dp"
+        android:text="Select Date"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextEmailAddress" />
+
+    <TextView
+        android:id="@+id/result_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/date_button"
+        tools:layout_editor_absoluteX="0dp" />
+
+
+    <Button
+        android:id="@+id/time_button"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="56dp"
+        android:text="Select Time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result_text" />
+
+    <TextView
+        android:id="@+id/result_text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        app:layout_constraintTop_toBottomOf="@+id/time_button"
+        tools:layout_editor_absoluteX="-16dp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="66dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="135dp"
+        android:ems="10"
+        android:hint="E-mail"
+        android:inputType="textEmailAddress"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.204"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextPhone" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName3"
+        android:layout_width="337dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="118dp"
+        android:ems="10"
+        android:hint="Gender"
+        android:inputType="textPersonName"
+        android:paddingStart="10dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.407"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="151dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="28dp"
+        android:text="Book Appointment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/result_text2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

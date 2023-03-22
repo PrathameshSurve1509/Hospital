@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="SearchView" type="id" />
+    <item name="myList" type="id" />
+    <item name="myList2" type="id" />
+    <item name="imageButton1" type="id" />
+    <item name="button2" type="id" />
+    <item name="imageButton2" type="id" />
+    <item name="button" type="id" />
+    <item name="TextTextUsername" type="id" />
+    <item name="TextEmailAddress" type="id" />
+</resources>
