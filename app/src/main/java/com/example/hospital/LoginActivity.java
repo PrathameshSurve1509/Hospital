@@ -86,6 +86,7 @@ public class LoginActivity extends AppCompatActivity {
             }
         });
 
+
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,7 +118,6 @@ public class LoginActivity extends AppCompatActivity {
                                 startActivity(new Intent(LoginActivity.this, MainActivity.class));
 
                                 Toast.makeText(LoginActivity.this, "Login Successful", Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(LoginActivity.this,ProfileActivity.class));
                                 finish();
                             } else {
                                 progressDialog.dismiss();
@@ -127,6 +127,7 @@ public class LoginActivity extends AppCompatActivity {
                     });
                 }
             }
+
 
             public void onBackPressed() {
 
@@ -153,6 +154,7 @@ public class LoginActivity extends AppCompatActivity {
 
             }
         });
+
     }
 
     private void signIn() {

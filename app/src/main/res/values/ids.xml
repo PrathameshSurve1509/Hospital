@@ -9,4 +9,5 @@
     <item name="button" type="id" />
     <item name="TextTextUsername" type="id" />
     <item name="TextEmailAddress" type="id" />
+    <item name="emailTextView" type="id" />
 </resources>

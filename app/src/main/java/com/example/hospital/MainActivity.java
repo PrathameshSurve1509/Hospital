@@ -6,9 +6,12 @@ import android.app.SearchManager;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Bitmap;
 import android.net.Uri;
 import android.os.Bundle;
 
+import android.os.CancellationSignal;
+import android.util.Size;
 import android.view.View;
 import android.view.ViewTreeObserver;
 import android.view.WindowManager;
@@ -29,6 +32,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import java.util.ArrayList;
 
 public class MainActivity extends AppCompatActivity {
+
     SearchView searchView;
     ListView myList;
 
@@ -48,14 +52,17 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+
         VideoView videoView = findViewById(R.id.videoView);
         String videoPath="android.resource://" + getPackageName() +"/" +R.raw.video;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
+        videoView.start();
 
-        MediaController mediaController=new MediaController(this);
-        videoView.setMediaController(mediaController);
-        mediaController.setAnchorView(videoView);
+//        MediaController mediaController=new MediaController(this);
+//        videoView.setMediaController(mediaController);
+//        mediaController.setAnchorView(videoView);
+
 
         //to stay buttons below
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);

@@ -93,6 +93,7 @@ public class RegisterActivity extends AppCompatActivity {
                                 progressDialog.dismiss();
                                 startActivity(new Intent(RegisterActivity.this, LoginActivity.class));
                                 Toast.makeText(RegisterActivity.this, "Registration Successful", Toast.LENGTH_SHORT).show();
+
                             } else {
                                 progressDialog.dismiss();
                                 Toast.makeText(RegisterActivity.this, "" + task.getException(), Toast.LENGTH_SHORT).show();
