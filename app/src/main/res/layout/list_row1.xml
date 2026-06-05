@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:padding="16dp"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextAppearance.AppCompat.Title"
+        android:text="Name" />
+
+    <TextView
+        android:id="@+id/txDes"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtname"
+        android:maxLength="5000"
+        android:singleLine="false"
+        style="@style/TextAppearance.AppCompat.SearchResult.Subtitle"
+        android:text="Des" />
+
+
+
+</RelativeLayout>

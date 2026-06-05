@@ -1,6 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     package="com.example.hospital">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-permission
+        android:name="android.permission.MANAGE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
 
     <application
         android:allowBackup="true"
@@ -10,14 +19,50 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Hospital">
         <activity
-            android:name=".ProfileActivity"
+            android:name=".Last_page"
             android:exported="false" />
         <activity
-            android:name=".BookActivity"
+            android:name=".ContactUs"
+            android:exported="false" />
+        <activity
+            android:name=".AdminLogin"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".patientList"
+            android:exported="false" />
+        <activity
+            android:name=".appointment_book"
+            android:exported="false" />
+        <activity
+            android:name=".ArthritisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AsthmaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".CancerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DiabetesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TuberculosisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".NormalFeverActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
             android:exported="false" />
         <activity
             android:name=".NotificationActivity"
             android:exported="false">
+                <intent-filter>
+                    <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                </intent-filter>
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -68,53 +113,8 @@
             android:name=".helpButton"
             android:exported="false" />
         <activity
-            android:name=".healthFitnessC"
-            android:exported="false" />
-        <activity
             android:name=".HealthFitnessActivity"
             android:exported="false" />
-        <activity
-            android:name=".ArthritisActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".AsthmaActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".CancerActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".TuberculosisActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".DiabetesActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
-        <activity
-            android:name=".NormalFeverActivity"
-            android:exported="false">
-            <meta-data
-                android:name="android.app.lib_name"
-                android:value="" />
-        </activity>
         <activity
             android:name=".MainActivity"
             android:exported="false" />

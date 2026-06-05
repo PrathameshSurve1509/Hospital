@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">hospital</string>
+    <string name="app_name">Hospital</string>
     <string name="appointment_history">Appointment History</string>
     <string name="todo">TODO</string>
     <string name="todo1">TODO</string>
@@ -29,82 +29,110 @@
 
     <string name="water_text">
     Staying hydrated is important for your health. Here are some tips to help you stay hydrated throughout the day:
-    \n\nDrink at least 8 glasses of water per day
-    \n\nCarry a reusable water bottle with you
-    \n\nDrink water before, during, and after exercise
-    \n\nAvoid sugary drinks and limit caffeine and alcohol intake
-    \n\nEat water-rich foods like fruits and vegetables
+    \n\n1.Drink at least 8 glasses of water per day
+    \n\n2.Carry a reusable water bottle with you
+    \n\n3.Drink water before, during, and after exercise
+    \n\n4.Avoid sugary drinks and limit caffeine and alcohol intake
+    \n\n5.Eat water-rich foods like fruits and vegetables
     \n\nHere are some motivational quotes to inspire you to drink more water:
     \n\nStaying hydrated has many advantages for our overall health and wellbeing. Here are some of the benefits of staying hydrated:
-\n\nRegulates body temperature: When we are dehydrated, our body\'s ability to regulate temperature can be compromised. Staying hydrated helps regulate body temperature and keeps us feeling comfortable.
-\n\nSupports healthy digestion: Water helps keep our digestive system running smoothly by helping to move food through the digestive tract and preventing constipation.
-\n\nBoosts energy levels: Dehydration can cause fatigue and decreased energy levels. Staying hydrated helps maintain our energy levels and keeps us feeling alert and focused.
-\n\nPromotes healthy skin: Drinking water helps keep our skin hydrated, which can improve its appearance and reduce the signs of aging.
-\n\nImproves kidney function: Our kidneys play an important role in removing waste and toxins from our bodies. Staying hydrated helps support healthy kidney function and prevent kidney stones.
-\n\nEnhances athletic performance: Staying hydrated helps improve athletic performance by maintaining adequate fluid balance and preventing dehydration.
-\n\nBoosts mood and cognitive function: Dehydration can affect our mood and cognitive function, leading to increased feelings of anxiety and irritability. Staying hydrated can help improve our mood and cognitive function.
+\n\n1.Regulates body temperature: When we are dehydrated, our body\'s ability to regulate temperature can be compromised. Staying hydrated helps regulate body temperature and keeps us feeling comfortable.
+\n\n2.Supports healthy digestion: Water helps keep our digestive system running smoothly by helping to move food through the digestive tract and preventing constipation.
+\n\n3.Boosts energy levels: Dehydration can cause fatigue and decreased energy levels. Staying hydrated helps maintain our energy levels and keeps us feeling alert and focused.
+\n\n4.Promotes healthy skin: Drinking water helps keep our skin hydrated, which can improve its appearance and reduce the signs of aging.
+\n\n5.Improves kidney function: Our kidneys play an important role in removing waste and toxins from our bodies. Staying hydrated helps support healthy kidney function and prevent kidney stones.
+\n\n6.Enhances athletic performance: Staying hydrated helps improve athletic performance by maintaining adequate fluid balance and preventing dehydration.
+\n\n7.Boosts mood and cognitive function: Dehydration can affect our mood and cognitive function, leading to increased feelings of anxiety and irritability. Staying hydrated can help improve our mood and cognitive function.
 \n\nOverall, staying hydrated is essential for our health and wellbeing. It helps keep our bodies functioning properly and can improve our physical and mental performance.
     </string>
 
     <string name="balancedDiet">
         A balanced diet is important for maintaining good health and preventing chronic diseases. Here are some general guidelines for a balanced diet:
-    \n\nEat a variety of foods: Include a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats in your diet.
-    \n\nChoose nutrient-dense foods: Focus on foods that are high in nutrients and low in calories, such as leafy greens, berries, nuts, beans, and fish.
-    \n\nLimit processed foods: Try to minimize your intake of processed foods, which are often high in calories, sugar, salt, and unhealthy fats.
-    \n\nControl portion sizes: Pay attention to portion sizes and aim to eat just enough to satisfy your hunger.
-    \n\nStay hydrated: Drink plenty of water and limit your intake of sugary drinks.
+    \n\n1.Eat a variety of foods: Include a variety of fruits, vegetables, whole grains, lean proteins, and healthy fats in your diet.
+    \n\n2.Choose nutrient-dense foods: Focus on foods that are high in nutrients and low in calories, such as leafy greens, berries, nuts, beans, and fish.
+    \n\n3.Limit processed foods: Try to minimize your intake of processed foods, which are often high in calories, sugar, salt, and unhealthy fats.
+    \n\n4.Control portion sizes: Pay attention to portion sizes and aim to eat just enough to satisfy your hunger.
+    \n\n5.Stay hydrated: Drink plenty of water and limit your intake of sugary drinks.
 
         \n\nA balanced diet is one that includes a variety of foods from all the different food groups in the right amounts. Here are some of the advantages of maintaining a balanced diet:
-\n\nProvides essential nutrients: A balanced diet provides all the essential nutrients that our bodies need to function properly, including vitamins, minerals, carbohydrates, proteins, and fats.
-\n\nMaintains a healthy weight: Eating a balanced diet helps maintain a healthy weight by providing the right amount of calories and nutrients that our bodies need.
-\n\nReduces the risk of chronic diseases: A balanced diet can help reduce the risk of chronic diseases such as heart disease, type 2 diabetes, and some types of cancer.
-\n\nBoosts the immune system: Eating a balanced diet can help boost our immune system, which helps protect us from infections and diseases.
-\n\nImproves mood and mental health: A balanced diet can help improve our mood and mental health by providing the necessary nutrients that support brain function and reduce the risk of depression and anxiety.
-\n\nIncreases energy levels: Eating a balanced diet can help increase our energy levels by providing the necessary nutrients and energy sources that our bodies need to function properly.
-\n\nPromotes healthy digestion: A balanced diet can help promote healthy digestion by providing enough fiber and fluids to prevent constipation and other digestive problems.
+\n\n1.Provides essential nutrients: A balanced diet provides all the essential nutrients that our bodies need to function properly, including vitamins, minerals, carbohydrates, proteins, and fats.
+\n\n2.Maintains a healthy weight: Eating a balanced diet helps maintain a healthy weight by providing the right amount of calories and nutrients that our bodies need.
+\n\n3.Reduces the risk of chronic diseases: A balanced diet can help reduce the risk of chronic diseases such as heart disease, type 2 diabetes, and some types of cancer.
+\n\n4.Boosts the immune system: Eating a balanced diet can help boost our immune system, which helps protect us from infections and diseases.
+\n\n5.Improves mood and mental health: A balanced diet can help improve our mood and mental health by providing the necessary nutrients that support brain function and reduce the risk of depression and anxiety.
+\n\n6.Increases energy levels: Eating a balanced diet can help increase our energy levels by providing the necessary nutrients and energy sources that our bodies need to function properly.
+\n\n7.Promotes healthy digestion: A balanced diet can help promote healthy digestion by providing enough fiber and fluids to prevent constipation and other digestive problems.
 \n\nOverall, maintaining a balanced diet is important for our health and wellbeing. It provides us with the essential nutrients and energy that our bodies need to function properly, and can help reduce the risk of chronic diseases and improve our mood and mental health.
    </string>
 
     <string name="sleep">
         Getting enough sleep is crucial for good health and well-being. Here are some tips to help you get enough sleep:
-    \n\nStick to a regular sleep schedule: Go to bed and wake up at the same time every day, even on weekends.
-    \n\nCreate a sleep-conducive environment: Make sure your bedroom is quiet, dark, and cool. Use comfortable bedding and a comfortable mattress.
-    \n\nLimit screen time before bed: Avoid using electronic devices (such as phones or laptops) in the hour before bed, as the blue light can disrupt your sleep.
-    \n\nAvoid caffeine and alcohol: Caffeine and alcohol can interfere with your sleep. Avoid consuming them in the evening or close to bedtime.
+    \n\n1.Stick to a regular sleep schedule: Go to bed and wake up at the same time every day, even on weekends.
+    \n\n2.Create a sleep-conducive environment: Make sure your bedroom is quiet, dark, and cool. Use comfortable bedding and a comfortable mattress.
+    \n\n3.Limit screen time before bed: Avoid using electronic devices (such as phones or laptops) in the hour before bed, as the blue light can disrupt your sleep.
+    \n\n4.Avoid caffeine and alcohol: Caffeine and alcohol can interfere with your sleep. Avoid consuming them in the evening or close to bedtime.
+
+        \n\nGetting enough sleep can have numerous benefits for health, including:
+\n\n1.Improved cognitive function: Sleep helps to consolidate memories and improve learning, problem-solving, and decision-making skills.
+\n\n2.Better mood: Adequate sleep can help regulate emotions and reduce the risk of depression and anxiety.
+\n\n3.Improved physical performance: Sleep is important for muscle recovery and can help improve athletic performance.
+\n\n4.Reduced risk of chronic diseases: Chronic sleep deprivation has been linked to an increased risk of conditions such as obesity, diabetes, cardiovascular disease, and certain cancers.
+\n\n5.Strengthened immune system: Sleep is crucial for immune function and can help the body fight off infections and illnesses.
     </string>
 
     <string name="stress">
-        \n\nManaging stress is important for maintaining good physical and mental health. Here are some tips that can help you manage stress:
-    \n\nExercise regularly: Regular exercise helps to reduce stress levels by releasing endorphins that improve mood and decrease anxiety.
-    \n\nPractice relaxation techniques: Deep breathing, meditation, and yoga can help to calm the mind and reduce stress.
-    \n\nGet enough sleep: Lack of sleep can increase stress levels, so it\'s important to aim for 7-8 hours of sleep per night.
+        Managing stress is important for maintaining good physical and mental health. Here are some tips that can help you manage stress:
+    \n\n1.Exercise regularly: Regular exercise helps to reduce stress levels by releasing endorphins that improve mood and decrease anxiety.
+    \n\n2.Practice relaxation techniques: Deep breathing, meditation, and yoga can help to calm the mind and reduce stress.
+    \n\n3.Get enough sleep: Lack of sleep can increase stress levels, so it\'s important to aim for 7-8 hours of sleep per night.
+        \n\n4.Eat a healthy diet: Eating a healthy, well-balanced diet can help to reduce stress and promote overall health. Aim to eat plenty of fruits, vegetables, whole grains, and lean proteins.
+\n\n5.Take breaks and practice self-care: Taking breaks and engaging in self-care activities, such as reading, listening to music, or taking a relaxing bath, can help you to manage stress and promote mental health.
+\n\n6.Seek support: Talking to a friend, family member, or mental health professional can help you to manage stress and improve your overall health and well-being. Don\'t be afraid to ask for help when you need it.
+        \n\n7.Set realistic goals: Setting realistic goals for yourself can help to reduce stress and promote a sense of accomplishment. Start with small goals and work your way up to bigger ones.
+\n\n8.Practice time management: Poor time management can contribute to stress. Make a schedule or to-do list to prioritize tasks and manage your time effectively.
+\n\n9.Avoid unhealthy coping mechanisms: Avoid using unhealthy coping mechanisms, such as smoking, drinking alcohol, or using drugs, to manage stress. These behaviors can have negative consequences for your health and may increase stress levels over time.
     </string>
 
     <string name="yoga">
         Yoga has numerous advantages for both physical and mental health. Here are some of the main advantages of practicing yoga:
-    \n\nImproved flexibility: Practicing yoga regularly can help increase flexibility and range of motion in the body. This can help prevent injury and improve overall physical performance.
-    \n\nIncreased strength: Many yoga poses require you to support your own body weight, which can help build strength in the muscles. This can improve overall fitness and reduce the risk of muscle and joint problems.
-    \n\nBetter balance: Many yoga poses require you to maintain balance, which can help improve coordination and reduce the risk of falls.
-    \n\nReduced stress and anxiety: Yoga has been shown to be an effective stress-reduction tool, helping to calm the mind and reduce anxiety levels.
-    \n\nImproved sleep: Regular yoga practice has been linked to improved sleep quality and duration.
-    \n\nLower blood pressure: Yoga has been shown to help lower blood pressure levels, which can reduce the risk of heart disease and stroke.
-    \n\nImproved cardiovascular health: Yoga can help improve cardiovascular health by reducing stress, lowering blood pressure, and improving circulation.
-    \n\nIncreased mindfulness: Yoga can help increase mindfulness and awareness of the present moment, which can lead to greater clarity of thought and improved decision-making skills.
-    \n\nImproved immune function: Regular yoga practice has been linked to improved immune function, helping to reduce the risk of illness and disease.
+    \n\n1.Improved flexibility: Practicing yoga regularly can help increase flexibility and range of motion in the body. This can help prevent injury and improve overall physical performance.
+    \n\n2.Increased strength: Many yoga poses require you to support your own body weight, which can help build strength in the muscles. This can improve overall fitness and reduce the risk of muscle and joint problems.
+    \n\n3.Better balance: Many yoga poses require you to maintain balance, which can help improve coordination and reduce the risk of falls.
+    \n\n4.Reduced stress and anxiety: Yoga has been shown to be an effective stress-reduction tool, helping to calm the mind and reduce anxiety levels.
+    \n\n5.Improved sleep: Regular yoga practice has been linked to improved sleep quality and duration.
+    \n\n6.Lower blood pressure: Yoga has been shown to help lower blood pressure levels, which can reduce the risk of heart disease and stroke.
+    \n\n7.Improved cardiovascular health: Yoga can help improve cardiovascular health by reducing stress, lowering blood pressure, and improving circulation.
+    \n\n8.Increased mindfulness: Yoga can help increase mindfulness and awareness of the present moment, which can lead to greater clarity of thought and improved decision-making skills.
+    \n\n9.Improved immune function: Regular yoga practice has been linked to improved immune function, helping to reduce the risk of illness and disease.
     \n\nOverall, yoga can have many benefits for both physical and mental health, making it a great addition to any wellness routine.
     </string>
 
 
     <string name="hygiene">
-    \n\nPracticing good hygiene is important for maintaining good health and preventing the spread of illness. Here are some tips for practicing good hygiene:
-    \n\nWash your hands frequently: Wash your hands with soap and water for at least 20 seconds, especially after using the bathroom, before eating, and after coughing or sneezing.
-    \n\nCover your mouth and nose: When coughing or sneezing, cover your mouth and nose with a tissue or your elbow to prevent the spread of germs.
-    \n\nAvoid touching your face: Avoid touching your eyes, nose, and mouth to reduce the risk of infection.
-    \n\nPractice social distancing: Keep a safe distance from others to reduce the spread of illness.
-    \n\nWear a mask: Wear a mask in public places or when around others to reduce the spread of germs.
-    \n\nClean and disinfect frequently touched surfaces: Clean and disinfect frequently touched surfaces such as doorknobs, light switches, and countertops regularly.
-    \n\nPractice good oral hygiene: Brush and floss your teeth regularly to maintain good oral health.
-    \n\nStay home when you\'re sick: If you\'re feeling unwell, stay home to prevent the spread of illness.
+    Practicing good hygiene is important for maintaining good health and preventing the spread of illness. Here are some tips for practicing good hygiene:
+    \n\n1.Wash your hands frequently: Wash your hands with soap and water for at least 20 seconds, especially after using the bathroom, before eating, and after coughing or sneezing.
+    \n\n2.Cover your mouth and nose: When coughing or sneezing, cover your mouth and nose with a tissue or your elbow to prevent the spread of germs.
+    \n\n3.Avoid touching your face: Avoid touching your eyes, nose, and mouth to reduce the risk of infection.
+    \n\n4.Practice social distancing: Keep a safe distance from others to reduce the spread of illness.
+    \n\n5.Wear a mask: Wear a mask in public places or when around others to reduce the spread of germs.
+    \n\n6.Clean and disinfect frequently touched surfaces: Clean and disinfect frequently touched surfaces such as doorknobs, light switches, and countertops regularly.
+    \n\n7.Practice good oral hygiene: Brush and floss your teeth regularly to maintain good oral health.
+    \n\n8.Stay home when you\'re sick: If you\'re feeling unwell, stay home to prevent the spread of illness.
     \n\nBy practicing good hygiene, you can help protect yourself and others from illness and maintain good health.
-    </string>
+  </string>
+    <string name="gender">Gender :</string>
+    <string name="male">Male</string>
+    <string name="_20">20</string>
+    <string name="age">Age :</string>
+    <string name="arya">Arya</string>
+    <string name="name">Name :</string>
+
+    <string-array name="gender_options">
+        <item></item>
+        <item><big>Male</big></item>
+        <item><big>Female</big></item>
+        <item><big>Other</big></item>
+    </string-array>
+
 </resources>
+

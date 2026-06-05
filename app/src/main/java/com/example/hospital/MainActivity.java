@@ -1,30 +1,21 @@
 package com.example.hospital;
 
 
-import android.app.Activity;
 import android.app.SearchManager;
-import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
-import android.graphics.Bitmap;
+import android.media.MediaPlayer;
 import android.net.Uri;
 import android.os.Bundle;
-
-import android.os.CancellationSignal;
-import android.util.Size;
 import android.view.View;
-import android.view.ViewTreeObserver;
 import android.view.WindowManager;
-import android.view.inputmethod.InputMethodManager;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.MediaController;
 import android.widget.SearchView;
 import android.widget.VideoView;
-
 
 import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
@@ -39,13 +30,14 @@ public class MainActivity extends AppCompatActivity {
     ListView myList1;
     ImageButton imgButton,bell;
 
-    Button button;
+    Button button,buttonOpenPad;
 
     ArrayList<String> list;
     ArrayAdapter<String> adapter;
 
     ArrayList<String> list1;
     ArrayAdapter<String> adapter1;
+    private static final String MOBILE_NUMBER = "108";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,10 +46,16 @@ public class MainActivity extends AppCompatActivity {
 
 
         VideoView videoView = findViewById(R.id.videoView);
-        String videoPath="android.resource://" + getPackageName() +"/" +R.raw.video;
+        String videoPath = "android.resource://" + getPackageName() + "/" + R.raw.video1;
         Uri uri = Uri.parse(videoPath);
         videoView.setVideoURI(uri);
-        videoView.start();
+        videoView.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
+            @Override
+            public void onPrepared(MediaPlayer mp) {
+                videoView.start();
+            }
+        });
+
 
 //        MediaController mediaController=new MediaController(this);
 //        videoView.setMediaController(mediaController);
@@ -67,12 +65,12 @@ public class MainActivity extends AppCompatActivity {
         //to stay buttons below
         getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN);
 
-        searchView = (SearchView)findViewById(R.id.SearchView);
-        myList = (ListView)findViewById(R.id.myList);
-        myList1 = (ListView)findViewById(R.id.myList2);
-        imgButton=(ImageButton)findViewById(R.id.imageButton1);
-        button=(Button)findViewById(R.id.button2);
-        bell=(ImageButton)findViewById(R.id.imageButton2);
+        searchView = (SearchView) findViewById(R.id.SearchView);
+        myList = (ListView) findViewById(R.id.myList);
+        myList1 = (ListView) findViewById(R.id.myList2);
+        imgButton = (ImageButton) findViewById(R.id.imageButton1);
+        button = (Button) findViewById(R.id.button2);
+        bell = (ImageButton) findViewById(R.id.imageButton2);
 
 
         final SearchManager searchManager = (SearchManager) getSystemService(SEARCH_SERVICE);
@@ -88,8 +86,13 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, NotificationActivity.class));
             }
         });
-
-
+        Button buttonOpenPad = findViewById(R.id.button4);
+        buttonOpenPad.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                openPhonePad();
+            }
+        });
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -98,13 +101,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
-
-
         //menu button list
         list1=new ArrayList<String>();
         list1.add("Profile");
         list1.add("Help");
+        list1.add("Contact us");
         list1.add("Logout");
 
 
@@ -116,12 +117,15 @@ public class MainActivity extends AppCompatActivity {
                 }else if (position==1){
                     startActivity(new Intent(MainActivity.this,helpButton.class));
                 }else if(position==2){
+                    startActivity(new Intent(MainActivity.this,ContactUs.class));
+                }else if(position==3){
                     startActivity(new Intent(MainActivity.this,LoginActivity.class));
                 }
 
-
             }
+
         });
+
 
 
 
@@ -144,12 +148,13 @@ public class MainActivity extends AppCompatActivity {
 
         list=new ArrayList<String>();
 
-        list.add("Normal Fever");
-        list.add("Diabetes");
-        list.add("Tuberculosis");
-        list.add("Cancer");
-        list.add("Asthma");
-        list.add("Arthritis");
+        list.add("Cardiology");
+        list.add("Dermatology");
+        list.add("Neurology");
+        list.add("Infectious Disease");
+        list.add("Mental Health");
+        list.add("Orthopaedics");
+        list.add("Psychologist");
 
         myList.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
@@ -198,12 +203,33 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public boolean onQueryTextChange(String s) {
-                if(s.length() >0)
-                adapter.getFilter().filter(s);
+                 if(s.length() >0) {adapter.getFilter().filter(s);}
                 return false;
             }
 
         });
+    }
+    private void openPhonePad() {
+        AlertDialog.Builder builder = new AlertDialog.Builder(this);
+        builder.setMessage("Are you sure you want to call?")
+                .setCancelable(false)
+                .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        openDialer();
+                    }
+                })
+                .setNegativeButton("No", new DialogInterface.OnClickListener() {
+                    public void onClick(DialogInterface dialog, int id) {
+                        dialog.cancel();
+                    }
+                });
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+    private void openDialer() {
+        Intent intent = new Intent(Intent.ACTION_DIAL);
+        intent.setData(Uri.parse("tel:" + MOBILE_NUMBER));
+        startActivity(intent);
     }
     public void onBackPressed() {
 
@@ -228,5 +254,8 @@ public class MainActivity extends AppCompatActivity {
         AlertDialog alert = builder.create();
         alert.show();
 
+
     }
+
+
 }

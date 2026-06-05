@@ -1,9 +1,9 @@
 package com.example.hospital;
 
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class yogaActivity extends AppCompatActivity {
 
@@ -14,6 +14,6 @@ public class yogaActivity extends AppCompatActivity {
 
 
         TextView yoga = findViewById(R.id.yoga_text);
-        yoga.setText(getString(R.string.hygiene));
+        yoga.setText(getString(R.string.yoga));
     }
 }
