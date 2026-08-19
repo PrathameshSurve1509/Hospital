@@ -1,3 +1,6 @@
+Copy-paste this **entire thing** into your `README.md`:
+
+````markdown
 # Hospital Management & Healthcare App
 
 An Android-based healthcare application developed using **Java** and **XML**. The application provides users with healthcare-related information, patient management features, appointment booking, notifications, user profiles, and health and wellness resources.
@@ -62,7 +65,6 @@ The application provides healthcare information and wellness resources covering:
 ### Administrator
 
 * Admin login
-* Access administrative functionality
 * Manage patient-related information
 
 ## Technologies Used
@@ -137,3 +139,62 @@ Hospital/
 ├── gradlew
 ├── gradlew.bat
 └── settings.gradle
+````
+
+## Application Screens
+
+The application contains multiple screens for different modules, including:
+
+* Splash Screen
+* Login
+* Registration
+* Admin Login
+* Main Dashboard
+* Patient List
+* Profile
+* Appointment Booking
+* Notifications
+* Health & Fitness
+* Disease Information
+* Contact Us
+* Help
+* Health & Wellness Resources
+
+## Screenshots
+
+| Splash Screen                             | Login                                   |
+| ----------------------------------------- | --------------------------------------- |
+| ![Splash Screen](screenshots/splash.jpeg) | ![Login Screen](screenshots/login.jpeg) |
+
+| Dashboard                                | Appointment Booking                                   |
+| ---------------------------------------- | ----------------------------------------------------- |
+| ![Dashboard](screenshots/dashboard.jpeg) | ![Appointment Booking](screenshots/patient_form.jpeg) |
+
+| Appointment Notification                       | Health Information                                         |
+| ---------------------------------------------- | ---------------------------------------------------------- |
+| ![Notification](screenshots/notification.jpeg) | ![Health Information](screenshots/health_information.jpeg) |
+
+## How to Run
+
+1. Clone this repository.
+2. Open the project in **Android Studio**.
+3. Allow Android Studio to sync the Gradle files.
+4. Connect an Android device or start an Android Emulator.
+5. Build and run the application.
+
+## Future Enhancements
+
+* Online doctor consultation
+* Advanced appointment scheduling
+* Improved notification and reminder functionality
+* Additional healthcare and wellness resources
+* Enhanced patient management features
+
+## Author
+
+**Prathamesh Surve**
+
+Computer Engineering | Android & Software Development
+
+GitHub: **[PrathameshSurve1509](https://github.com/PrathameshSurve1509)**
+
