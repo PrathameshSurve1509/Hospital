@@ -67,11 +67,35 @@ The application provides healthcare information and wellness resources covering:
 
 ## Technologies Used
 
+### Development
+
 * **Java**
 * **XML**
 * **Android SDK**
 * **Android Studio**
 * **Git & GitHub**
+
+### Backend & Authentication
+
+* **Firebase Authentication**
+* **Firebase Realtime Database**
+* **Firebase Storage**
+* **Firebase Cloud Messaging (FCM)**
+* **Google Sign-In**
+
+### Android Components
+
+* **Android Navigation Component**
+* **Material Components**
+* **ConstraintLayout**
+* **View Binding**
+* **CardView**
+
+### UI & Media Libraries
+
+* **Lottie**
+* **Glide**
+* **Picasso**
 
 ## Android Components
 
@@ -113,60 +137,3 @@ Hospital/
 ├── gradlew
 ├── gradlew.bat
 └── settings.gradle
-```
-
-## Application Screens
-
-The application contains multiple screens for different modules, including:
-
-* Splash Screen
-* Login
-* Registration
-* Admin Login
-* Main Dashboard
-* Patient List
-* Profile
-* Appointment Booking
-* Notifications
-* Health & Fitness
-* Disease Information
-* Contact Us
-* Help
-* Health & Wellness Resources
-
-## Screenshots
-
-| Splash Screen | Login |
-|---|---|
-| ![Splash Screen](screenshots/splash.jpeg) | ![Login Screen](screenshots/login.jpeg) |
-
-| Dashboard | Appointment Booking |
-|---|---|
-| ![Dashboard](screenshots/dashboard.jpeg) | ![Appointment Booking](screenshots/patient_form.jpeg) |
-
-| Appointment Notification | Health Information |
-|---|---|
-| ![Notification](screenshots/notification.jpeg) | ![Health Information](screenshots/health_information.jpeg) |
-## How to Run
-
-1. Clone this repository.
-2. Open the project in **Android Studio**.
-3. Allow Android Studio to sync the Gradle files.
-4. Connect an Android device or start an Android Emulator.
-5. Build and run the application.
-
-## Future Enhancements
-
-* Online doctor consultation
-* Advanced appointment scheduling
-* Improved notification and reminder functionality
-* Additional healthcare and wellness resources
-* Enhanced patient management features
-
-## Author
-
-**Prathamesh Surve**
-
-Computer Engineering | Android & Software Development
-
-GitHub: **[PrathameshSurve1509](https://github.com/PrathameshSurve1509)**
