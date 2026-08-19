@@ -136,8 +136,17 @@ The application contains multiple screens for different modules, including:
 
 ## Screenshots
 
-Screenshots of the application will be added here to demonstrate the user interface and major application features.
+| Splash Screen | Login |
+|---|---|
+| ![Splash Screen](screenshots/splash.jpeg) | ![Login Screen](screenshots/login.jpeg) |
 
+| Dashboard | Appointment Booking |
+|---|---|
+| ![Dashboard](screenshots/dashboard.jpeg) | ![Appointment Booking](screenshots/patient_form.jpeg) |
+
+| Appointment Notification | Health Information |
+|---|---|
+| ![Notification](screenshots/notification.jpeg) | ![Health Information](screenshots/health_information.jpeg) |
 ## How to Run
 
 1. Clone this repository.
