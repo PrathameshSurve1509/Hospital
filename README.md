@@ -1,6 +1,4 @@
-Copy-paste this **entire thing** into your `README.md`:
 
-````markdown
 # Hospital Management & Healthcare App
 
 An Android-based healthcare application developed using **Java** and **XML**. The application provides users with healthcare-related information, patient management features, appointment booking, notifications, user profiles, and health and wellness resources.
